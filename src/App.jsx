@@ -20,6 +20,7 @@ function App() {
     <Alert/>
     <div className='container'>
     <Routes>
+      <Route exact path="/" element={<Home key="home"/>}></Route>
       <Route exact path='/myNotebook' element={<Home key="home"/>}></Route>
       <Route exact path='/myNotebook/Home' element={<Home key="home"/>}></Route>
       <Route exact path='/myNotebook/About' element={<About key="about"/>}></Route>
