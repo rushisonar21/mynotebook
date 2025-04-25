@@ -21,12 +21,12 @@ const Login = () => {
     return (
         <div>
             <h3 className='text-center'>Login</h3>
-            <form>
-                <div className="mb-3">
+            <form style={{"display":"flex","flexDirection":"column" ,"alignItems":"center"}}>
+                <div className="mb-3" style={{"width":"300px"}}>
                     <label htmlFor="email" className="form-label">Email address</label>
                     <input type="email" className="form-control" id="email" value={logindetail.email} onChange={handleChange}/>
                 </div>
-                <div className="mb-3">
+                <div className="mb-3" style={{"width":"300px"}}>
                     <label htmlFor="password" className="form-label">Password</label>
                     <input type="password" className="form-control" id="password" value={logindetail.password} onChange={handleChange}/>
                 </div>
