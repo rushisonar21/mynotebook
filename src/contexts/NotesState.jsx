@@ -3,7 +3,7 @@ import notesContext from "./NotesContext";
 import alertContext from "./alertContext";
 
 const NotesState = (props) => {
-  const base_url = "http://localhost:3000"
+  const base_url = "https://mynotebook-tsmw.onrender.com"
   const [notes, setNotes] = useState([])
   const alert_context = useContext(alertContext)
   const updateAlert = alert_context.updateAlert

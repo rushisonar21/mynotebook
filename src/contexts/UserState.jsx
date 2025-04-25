@@ -3,7 +3,7 @@ import userContext from "./userContext";
 import alertContext from "./alertContext";
 
 const UserState = (props) => {
-    const base_url = "http://localhost:3000"
+    const base_url = "https://mynotebook-tsmw.onrender.com"
     const alert_context = useContext(alertContext)
     const updateAlert = alert_context.updateAlert
     const addUser = async (name, email, password)=>{
